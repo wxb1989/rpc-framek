@@ -48,20 +48,11 @@
             <properties>
                 <log4j.appender>rollingFile</log4j.appender>
                 <log4j.level>INFO</log4j.level>
-                <log4j.log.file>/home/sanfenzhong/sanfenzhong.log</log4j.log.file>
-                <log4j.log.dir>/home/sanfenzhong/sanfenzhong/</log4j.log.dir>
-
+                <log4j.log.file>/home/rpc/rpc.log</log4j.log.file>
+                <log4j.log.dir>/home/rpc/rpc/</log4j.log.dir>
             </properties>
             <build>
                 <plugins>
-                    <plugin>
-                        <artifactId>maven-war-plugin</artifactId>
-                        <version>2.1.1</version>
-                        <configuration>
-                            <!-- <packagingIncludes>WEB-INF/lib/lbs*.jar,index.jsp,jsp/**,resources/**,WEB-INF/*.xml,WEB-INF/classes/**</packagingIncludes> -->
-                            <packagingExcludes>${packagingExcludes}</packagingExcludes>
-                        </configuration>
-                    </plugin>
                 </plugins>
             </build>
         </profile>

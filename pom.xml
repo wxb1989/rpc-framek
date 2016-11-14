@@ -5,6 +5,10 @@
     <groupId>com.wx.rpc</groupId>
     <artifactId>rpc-parent</artifactId>
     <version>1.0.0</version>
+    <modules>
+        <module>rpc-core</module>
+        <module>rpc-server</module>
+    </modules>
     <packaging>pom</packaging>
     <name>rpc Parent</name>
     <url>http://maven.apache.org</url>
@@ -57,5 +61,4 @@
             </build>
         </profile>
     </profiles>
-
 </project>
